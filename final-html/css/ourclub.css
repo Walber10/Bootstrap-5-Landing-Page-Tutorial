@@ -96,13 +96,44 @@ ul.nav-bar {
 
 }
 
-.col-md-5 p {
+.col-md-6 p {
 
   font-family: 'Poppins', sans-serif;
+  margin-top: -100px;
 
 }
 
 
+@media (max-width: 760px)  {
+
+
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 30px;
+    margin-bottom: .5rem!important;
+    font-weight: 500!important;
+    line-height: 1.2!important;
+
+  }
+
+  .btn-group-lg>.btn, .btn-lg {
+
+
+    margin-left: 20%!important;
+    color: yellow;
+
+  }
+
+  }
+
+
+  img.teste5 {
+
+    width: 90%;
+    margin-left: 20;
+    border-radius: 20px;
+}
+
+  }
 
  
 
@@ -284,10 +315,15 @@ ul.nav-bar {
 text-align: center;
 font-size: 3rem;
 font-family: 'Lato', sans-serif!important;
-margin-bottom: 30px;
-margin-top: 40px;
+margin-top: 120px;
 height: 150px;
 
+
+  }
+
+  #title p {
+
+    margin-top: 30px;
 
   }
 
@@ -296,7 +332,8 @@ height: 150px;
     text-align: center;
 font-size: 3rem;
 font-family: 'Lato', sans-serif!important;
-margin-bottom: 30px;
+margin-top: 120px;
+
 
   }
 
@@ -371,7 +408,8 @@ margin-bottom: 30px;
 
   .icon.gradient.mb-4 {
 
-    margin-left: 30%!important;
+    width: 900px;
+    
 
   }
   
@@ -391,116 +429,25 @@ margin-bottom: 30px;
 
   }
 
-
-  @media (max-width: 760px)  {
-
-
-    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-      margin-top: 30px;
-      margin-bottom: .5rem!important;
-      font-weight: 500!important;
-      line-height: 1.2!important;
-  
-    }
-
-    .col-md-5 h2 {
-
-      text-align: center!important;
-
-    }
-  
-    .btn-group-lg>.btn, .btn-lg {
-
-      
-  
-      margin-left: 10%!important;
-      
-      width: 300px;
-  
-    }
-
-    .btn-outline-warning  {
-      margin-top: 5px;
-      color: #ffc107!important;
-      border-color: #ffc107;
-  }
-  
-  .btn-outline-warning a {
-    margin-top: 5px;
-    color: #ffc107!important;
-    border-color: #ffc107;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-  width: 25%;
-}
-
-#title h1 {
+ .ourclub-img img {
 
 
-  text-align: center;
-  font-size: 2rem;
-  font-family: 'Lato', sans-serif!important;
-  
-  
-  height: 20px;
-  
-  
-    }
-
-    .title h1 {
-
-
-      text-align: center;
-      font-size: 2rem;
-      font-family: 'Lato', sans-serif!important;
-      
-     
-      height: 20px;
-      
-      
-        }
-
-        .btn-outline-success {
-          color: #28a745;
-          border-color: #28a745;
-          width: 300px;
-          margin-left: 10%!important;
-      }
-
-    }
-  
-  
-    img.teste5 {
-  
-      width: 90%;
-      margin-left: 20;
-      border-radius: 20px;
-  }
-
-
-  .img-fluid2 {
-    max-width: 100%;
-    height: auto;
-    margin-top: 30px;
-          max-width: 100%;
-      height: auto;
-      margin-top: 60px;
-      margin-right: 150%;
-  }
-  
-
-  .col-md-4 {
-
-    text-align: center;
+    margin-top: 50%;
+   
+    border-radius: 20px;
 
   }
 
-  .col-md-5 {
-  
-  margin-top: 30px;
-  
-}
-}
+
+
+  img.ourclub {
+
+     width: 900px;
+     margin-left: 20%;
+
+  }
+
+  .navbar-light .navbar-nav .nav-link.active {
+
+    color:#747475!important;
+  }
